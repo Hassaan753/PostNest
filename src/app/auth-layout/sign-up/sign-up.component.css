@@ -1,0 +1,134 @@
+/*.name-input-fields-container{*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*}*/
+.createANewAccount{
+  font-size: 27px;
+  margin-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.email-password-input-fields-container{
+  display: flex;
+  flex-direction: column;
+}
+.f-l-input-fields{
+  border-radius: 5px;
+  width: 140px;
+  height: 22px;
+  padding: 8px 16px;
+  font-size: 17px;
+  /*border: none;*/
+  border: 1px solid #dddfe2;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.f-l-input-fields1{
+  border-radius: 5px;
+  width: 140px;
+  height: 22px;
+  padding: 8px 16px;
+  font-size: 17px;
+  /*border: none;*/
+  border: 1px solid #dddfe2;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-right: 9px;
+}
+.captions {
+  color: #000000;
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 5px;
+  margin-bottom: 6px;
+}
+.date-of-birth-Container {
+  border-radius: 5px;
+  width: 140px;
+  height: 22px;
+  padding: 8px 16px;
+  font-size: 17px;
+  /*border: none;*/
+  margin-top: 3px;
+  border: 1px solid #dddfe2;
+}
+.gender-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -8px -6px -6px;
+  width: 366px;
+}
+.g-o {
+  background-color: #fff;
+  border: 1px solid #ccd0d5;
+  box-sizing: border-box;
+  display: inline-block;
+  flex: 1 0 auto;
+  font-weight: normal;
+  height: 36px;
+  margin: 8px 6px 6px;
+  padding: 0;
+  position: relative;
+  width: auto;
+  border-radius: 4px;
+}
+.g-o inputs {
+  height: 36px;
+  margin: 0;
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+.g-o-labels {
+  box-sizing: border-box;
+  color: #1c1e21;
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 36px;
+  padding: 0 28px 0 10px;
+}
+.f-l-input-fields-e{
+  border-radius: 5px;
+  width: 320px;
+  height: 22px;
+  padding: 8px 16px;
+  font-size: 17px;
+  /*border: none;*/
+  border: 1px solid #dddfe2;
+}
+.signUp-email-container{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.signUp-password-container{
+  margin-bottom: 10px;
+}
+.signup-rewrite-password-container{
+  margin-bottom: 10px;
+}
+.form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*border: 1px solid black;*/
+  height: 445px;
+  width: 400px;
+  background-color: cyan;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgb(101 127 233 / 49%);
+  border-radius: 5px;
+}
+.signupBtn{
+  background-color: #dd9aff;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  height: 36px;
+  text-shadow: none;
+  padding: 7px 20px;
+  text-align: center;
+  cursor: pointer;
+  width: 155px;
+  margin-left: 10px;
+  margin-top: 2px;
+}

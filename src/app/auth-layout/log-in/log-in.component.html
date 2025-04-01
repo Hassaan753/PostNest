@@ -1,0 +1,18 @@
+<div class="form-container">
+  <div class="heading-container">
+<span>
+  Log in to POSTIFY
+</span>
+  </div>
+  <div class="login-email-input-container">
+    <input type="email" placeholder="Enter Your Email" class="f-l-input-fields" [(ngModel)]="email">
+  </div>
+  <div class="login-password-input-container">
+    <input type="password" placeholder="Enter Your Password" class="f-l-input-fields" [(ngModel)]="password">
+  </div>
+  <div class="login-btn-container">
+    <button class="loginBtn" (click)="login()">Login</button>
+  </div>
+  <span class="line"></span>
+<button (click)="goToSignupPage()" class="goToSignupPage">Creat a new account</button>
+</div>

@@ -1,0 +1,54 @@
+<div class="form-container">
+  <span class="createANewAccount" style="display: flex; justify-content: center;">Create a new account</span>
+  <div class="name-input-fields-container">
+    <input type="text" placeholder="First Name" class="f-l-input-fields1" [(ngModel)]="firstName">
+    <input type="text" placeholder="Last Name" class="f-l-input-fields" [(ngModel)]="lastName">
+  </div>
+  <div class="captions">
+    <span>Date of birth <span>?</span></span>
+  </div>
+  <div>
+    <input type="date" [(ngModel)]="dob" class="date-of-birth-Container" />
+  </div>
+  <div class="captions">
+    <span>Gender <span>?</span></span>
+  </div>
+  <div>
+                            <span class="gender-wrapper">
+                              <span class="g-o">
+                                <label class="g-o-labels">Female</label>
+                                <input
+                                  type="radio"
+                                  [(ngModel)]="gender"
+                                  name="gender"
+                                  value="female"
+                                />
+                              </span>
+                              <span class="g-o">
+                                <label class="g-o-labels">Male</label>
+                                <input type="radio" [(ngModel)]="gender" name="gender" value="male" />
+                              </span>
+                              <span class="g-o">
+                                <label class="g-o-labels">Custom</label>
+                                <input
+                                  type="radio"
+                                  [(ngModel)]="gender"
+                                  name="gender"
+                                  value="custom"
+                                />
+                              </span>
+                            </span>
+  </div>
+  <div class="signUp-email-container">
+    <input type="email" placeholder="Enter your email" class="f-l-input-fields-e" [(ngModel)]="signupEmail">
+  </div>
+  <div class="signUp-password-container">
+    <input type="password" placeholder="Enter your password" class="f-l-input-fields-e" [(ngModel)]="signupPassword">
+  </div>
+  <div class="signup-rewrite-password-container">
+    <input type="password" placeholder="Re-enter your password" class="f-l-input-fields-e" [(ngModel)]="signupRewritePassword">
+  </div>
+<button (click)="goToLoginPage()" class="signupBtn">Signup</button>
+</div>
+
+

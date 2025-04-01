@@ -1,0 +1,34 @@
+.main{
+  height: 100%;
+  display: flex;
+  background-color: #82eeff;
+}
+.left-container{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  margin: 0;
+  font-size: 90px;
+  font-family: math;
+}
+.logo-container{
+  height: 60%;
+
+}
+.slogan-container{
+  display: flex;
+  justify-content:  flex-end;
+}
+.slogan{
+  padding-right: 15px;
+  text-transform: capitalize;
+}
